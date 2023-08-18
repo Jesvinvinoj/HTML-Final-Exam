@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Design</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <!-- Blue Section -->
+        <section class="blue-section">
+            <h1>HTML, CSS, JS Fundamentals Final Exam</h1>
+        </section>
+        
+        <!-- Orange Section -->
+        <section class="orange-section">
+            <div class="images-container">
+                <img src="img2.jpg" alt="Image 1">
+                <img src="img3.jpg" alt="Image 2">
+                <img src="img4.jpg" alt="Image 3">
+                <img src="img5.jpg" alt="Image 4">
+            </div>
+            <div class="orange-bar">
+                <h2>I am a Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nemo asperiores quae.</p>
+            </div>
+        </section>
+        
+        <!-- Purple Section -->
+        <section class="purple-section">
+            <form class="custom-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label>Pick one option:</label>
+                    <div class="radio-group">
+                        <label for="option-true">True</label>
+                        <input type="radio" id="option-true" name="option" value="true">
+                    </div>
+                    <div class="radio-group">
+                        <label for="option-false">False</label>
+                        <input type="radio" id="option-false" name="option" value="false">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Leave a message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    
+    <!-- Script -->
+    <script src="global.js"></script>
+</body>
+</html>

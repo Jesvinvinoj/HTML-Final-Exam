@@ -1,0 +1,106 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font family */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #125784;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* Main content styles */
+main {
+    background-color: #f57f17;
+    padding: 20px;
+}
+
+/* Blue section styles */
+.blue-section {
+    background-color: #125784;
+    color: #fff;
+    padding: 80px;
+    background-image: url('img1.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.blue-section h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Purple section styles */
+.purple-section {
+    background-color: #5e35b1;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Orange section styles */
+.orange-section {
+    background-color: #f57f17;
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.images-container img {
+    width: 200px;
+    height: 200px;
+}
+
+.orange-bar {
+    background-color: #ffa000;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.orange-bar h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Additional CSS styles can be added here */
